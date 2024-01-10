@@ -65,6 +65,7 @@ int main(){
 		beta = degree_from_radian(acos((a_square + c_square - b_square) / (2 * a * c)));
 		gamma = 180 - alpha - beta;
 		
+		S1 = area_of_sector(alpha, r1);
 		S2 = area_of_sector(beta, r2);
 		S3 = area_of_sector(gamma, r3);
 
